@@ -155,7 +155,7 @@
     animation: fadeUp 0.8s 0.2s forwards;
   }
 
-  .hero-name {
+  /* .hero-name {
     font-size: clamp(3rem, 8vw, 7rem);
     font-weight: 600;
     line-height: 1;
@@ -163,7 +163,18 @@
     margin-bottom: 2rem;
     opacity: 0;
     animation: fadeUp 0.8s 0.4s forwards;
-  }
+  } */
+
+  .hero-name {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(3rem, 8vw, 7rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -2px;
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: fadeUp 0.8s 0.4s forwards;
+}
 
   .hero-name span {
     display: block;
